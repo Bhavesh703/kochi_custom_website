@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table-heading{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tabel-item {
+  text-decoration: none;
+  color: #092635;
+}
+
+.tabel-item:hover{
+ color: #9EC8B9;
+}
+
+.text-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #092635;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.text-footer .footer-click{
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-footer .footer-click:hover{
+  color: #9EC8B9;
+}

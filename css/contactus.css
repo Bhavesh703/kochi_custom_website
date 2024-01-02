@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text a{
+    text-decoration: none;
+    color: #092635;
+}
+
+.main-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.main-container .item-container{
+    display: flow-root;
+}
+
+.item-container .contact-item .icon-title{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        gap: 0.5rem;
+}
+
+
+.left h2{
+    font-size: 5rem;    
+    font-weight: 700;
+    font-family: popin;
+    color: #092635;
+}
+
+.contact-btn{
+    background-color: #092635;
+}
+
+.icon-title h5{
+    font-family: popin;
+    font-weight: 500;
+}
+
+ .text p{
+
+    font-family: popin;
+    font-size: medium;
+    color: gray;
+}
+
+.text{
+    width: 20rem;    
+}

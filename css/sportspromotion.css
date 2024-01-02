@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table-heading{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #092635;
+    color: #fff;
+}
+
+.tabel-item{
+    text-decoration: none;
+}
+
+.tabel-data{
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease ;
+    -o-transition: opacity 0.5s ease ;
+    transition: opacity 0.5s ease ;
+    color:  rgb(252, 69, 69);
+    -webkit-animation: blink 1s ease infinite;
+            animation: blink 1s ease infinite;
+
+}
+
+@-webkit-keyframes blink{
+    50%{
+        opacity: 0.5;
+    }
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0.5;
+    }
+}

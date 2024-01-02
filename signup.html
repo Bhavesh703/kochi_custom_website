@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign Up</title>
+  </head>
+  <link rel="stylesheet" href="css/signup.css" />
+  <link rel="stylesheet" href="css/banner.css" />
+  <link rel="icon" type="image/x-icon" href="/assets/Goverment_logo.png" />
+  <link
+    href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    rel="stylesheet"
+    id="bootstrap-css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <body>
+    <div class="bannerImg">
+      <div class="leftImg">
+        <img class="Img" src="assets/Satyamev_Jayate.png" alt="" />
+      </div>
+
+      <div class="title">
+        <p>
+          प्रधान आयुक्त कार्यालय
+          <br />
+          <span class="title-text">OFFICE OF THE PRINCIPAL COMMISSIONER</span>
+          <br />
+          GOVT.OF INDIA, MINISTRY OF FINANCE, DEP. OF REVENUE
+          <br />
+          <span class="title-text">सीमा शुल्क अहमदाबाद</span>
+          <br />
+          Central GST & Central Customs - Kochi
+        </p>
+      </div>
+
+      <div class="rightImg">
+        <img class="Img" src="assets/Goverment_logo.png" alt="" />
+      </div>
+    </div>
+    <header>
+      <div id="navbar"></div>
+    </header>
+
+    <div class="container register">
+      <div class="row">
+        <div class="col-md-3 register-left">
+          <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+          <h3>Welcome</h3>
+          <h3>Central GST & Customs</h3>
+          <a href="/members.html"
+            ><input type="submit" name="" value="Login" /></a
+          ><br />
+          <p>All fields are mndatory*</p>
+        </div>
+        <div class="col-md-9 register-right">
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+            >
+              <h3 class="register-heading">User Signup</h3>
+              <div class="row register-form">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="First Name *"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Middle Name *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Last Name *"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder=" Designation*"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Commissionerate*"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Formation*"
+                      value=""
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Section*"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email ID*"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      minlength="10"
+                      maxlength="10"
+                      name="txtEmpPhone"
+                      class="form-control"
+                      placeholder="Mobile No.*"
+                      value=""
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      minlength="10"
+                      maxlength="10"
+                      name="txtEmpPhone"
+                      class="form-control"
+                      placeholder="Employee Code *"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      minlength="10"
+                      maxlength="10"
+                      name="txtEmpPhone"
+                      class="form-control"
+                      placeholder="SSO Id*"
+                      value=""
+                    />
+                  </div>
+                  <input type="submit" class="btnRegister" value="Send" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $("#navbar").load("navbar.html");
+      });
+    </script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
